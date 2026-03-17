@@ -1,0 +1,11 @@
+{"BoltAssemblies":[
+{"add_dist":0,"ass_din":"\xd1\xd2\xcf 016-2002","din":"\xd1\xd2\xcf 016-2002","grade":"","material":"09\xc32\xd1-12","nut1_din":"\xcd\xe8\xf7\xe5\xe3\xee","nut2_din":"\xcd\xe8\xf7\xe5\xe3\xee","prod_grade":"0","screw_din":"\xd1\xd2\xcf 016-2002","short_name":"\xd3\xef\xee\xf0","surf_finish":"","washer1_din":"\xcd\xe8\xf7\xe5\xe3\xee","washer2_din":"\xcd\xe8\xf7\xe5\xe3\xee","washer3_din":"\xcd\xe8\xf7\xe5\xe3\xee"}
+
+]
+,"Bolts":[
+{"diameter":22,"din":"\xd1\xd2\xcf 016-2002","length":150,"name":"\xd3\xef\xee\xf0 22*150","p1":10,"p2":0,"p3":0,"p4":0,"p5":35,"p6":0,"type":301,"weight":500}
+,
+{"diameter":22,"din":"\xd1\xd2\xcf 016-2002","length":175,"name":"\xd3\xef\xee\xf0 22*175","p1":10,"p2":0,"p3":0,"p4":0,"p5":35,"p6":0,"type":301,"weight":580}
+
+]
+}
