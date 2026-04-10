@@ -1,0 +1,9 @@
+---
+name: metahopper
+version: 1.2.4
+authors:
+- Andrew Heumann
+description: Manipulate Grasshopper with Grasshopper
+url: https://discourse.mcneel.com/c/grasshopper/metahopper
+secret:
+  id: a5058970-b442-4922-91a1-9f0f715c9c46

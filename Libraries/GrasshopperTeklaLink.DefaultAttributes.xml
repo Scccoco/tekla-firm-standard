@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<DefaultAttributes>
+  <!--
+  This file contains the default attribute values that are being applied to Tekla objects created from Grasshopper.
+  - To change the default values, you can modify the values in this file using a text editor.
+      Then re-save this file in the Grasshopper Libraries folder and use the command "Reload Default Attributes" from the Tekla menu in Grasshopper (or restart Rhino and Grasshopper).
+  - To reset the default values, use the command "Reset Default Attributes" from the Tekla menu in Grasshopper.
+  - If you delete this file, it will be regenerated with default values the next time you launch Grasshopper.
+  -->
+  <BeamPointAttributes>
+    <Class>2</Class>
+    <Finish />
+    <Material>Steel_Undefined</Material>
+    <Name>POINT</Name>
+    <Profile>200*200</Profile>
+    <PartNumber>
+      <Prefix />
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix />
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </BeamPointAttributes>
+  <SteelBeamAttributes>
+    <Class>3</Class>
+    <Finish />
+    <Material>Steel_Undefined</Material>
+    <Name>BEAM</Name>
+    <Profile>HEA300</Profile>
+    <PartNumber>
+      <Prefix>b</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>B</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </SteelBeamAttributes>
+  <SteelColumnAttributes>
+    <Class>7</Class>
+    <Finish />
+    <Material>Steel_Undefined</Material>
+    <Name>COLUMN</Name>
+    <Profile>HEA400</Profile>
+    <PartNumber>
+      <Prefix>c</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>C</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </SteelColumnAttributes>
+  <PlateAttributes>
+    <Class>99</Class>
+    <Finish />
+    <Material>Steel_Undefined</Material>
+    <Name>PLATE</Name>
+    <Profile>PL10</Profile>
+    <PartNumber>
+      <Prefix />
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>A</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </PlateAttributes>
+  <SteelItemAttributes>
+    <Class>105</Class>
+    <Finish />
+    <Material>Misc_Undefined</Material>
+    <Name>ITEM</Name>
+    <Profile>Default</Profile>
+    <PartNumber>
+      <Prefix>sp</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>SP</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </SteelItemAttributes>
+  <ConcreteBeamAttributes>
+    <Class>11</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>BEAM</Name>
+    <Profile>800*400</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>B</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </ConcreteBeamAttributes>
+  <ConcreteColumnAttributes>
+    <Class>1</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>COLUMN</Name>
+    <Profile>400*400</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>C</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </ConcreteColumnAttributes>
+  <PanelAttributes>
+    <Class>1</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>PANEL</Name>
+    <Profile>2800*160</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>W</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </PanelAttributes>
+  <SlabAttributes>
+    <Class>11</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>SLAB</Name>
+    <Profile>200</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>S</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </SlabAttributes>
+  <PadFootingAttributes>
+    <Class>8</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>PAD FOOTING</Name>
+    <Profile>1500*1500</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>FP</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </PadFootingAttributes>
+  <StripFootingAttributes>
+    <Class>8</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>STRIP FOOTING</Name>
+    <Profile>300*600</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>FS</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </StripFootingAttributes>
+  <ConcreteItemAttributes>
+    <Class>107</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>CONCRETE ITEM</Name>
+    <Profile>Concrete_Default</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>CP</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </ConcreteItemAttributes>
+  <BeamExtruderAttributes>
+    <Class>1</Class>
+    <Finish />
+    <Material>Concrete_Undefined</Material>
+    <Name>BEAM</Name>
+    <Profile>800*6000</Profile>
+    <PartNumber>
+      <Prefix>Concrete</Prefix>
+      <StartNumber>1</StartNumber>
+    </PartNumber>
+    <AssemblyNumber>
+      <Prefix>B</Prefix>
+      <StartNumber>1</StartNumber>
+    </AssemblyNumber>
+    <CastUnitType>CAST_IN_PLACE</CastUnitType>
+    <PourPhase>0</PourPhase>
+  </BeamExtruderAttributes>
+  <SingleBarAttributes>
+    <Name>REBAR</Name>
+    <Size>12</Size>
+    <Grade>Undefined</Grade>
+    <RadiusValues>
+      <double>30</double>
+    </RadiusValues>
+    <Class>11</Class>
+    <NumberingSeries>
+      <Prefix />
+      <StartNumber>1</StartNumber>
+    </NumberingSeries>
+  </SingleBarAttributes>
+  <RebarAttributes>
+    <Name>REBAR</Name>
+    <Size>12</Size>
+    <Grade>Undefined</Grade>
+    <RadiusValues>
+      <double>30</double>
+    </RadiusValues>
+    <Class>3</Class>
+    <NumberingSeries>
+      <Prefix />
+      <StartNumber>1</StartNumber>
+    </NumberingSeries>
+  </RebarAttributes>
+  <RebarGroupAttributes>
+    <ExcludeType>EXCLUDE_TYPE_NONE</ExcludeType>
+    <Spacings>
+      <double>200</double>
+    </Spacings>
+    <SpacingType>SPACING_TYPE_EXACT_SPACE_FLEX_AT_BOTH</SpacingType>
+    <StirrupType>STIRRUP_TYPE_POLYGONAL</StirrupType>
+  </RebarGroupAttributes>
+  <LegSurfaceAttributes>
+    <AdditionalOffset>25</AdditionalOffset>
+    <LayerOrderNumber>7</LayerOrderNumber>
+    <Reversed>false</Reversed>
+    <CreateHoles>false</CreateHoles>
+  </LegSurfaceAttributes>
+  <GuideLineAttributes>
+    <ExcludeType>EXCLUDE_TYPE_NONE</ExcludeType>
+    <Spacings />
+    <TargetSpace>200</TargetSpace>
+    <SpacingType>SPACING_TYPE_EXACT_SPACE_FLEX_AT_BOTH</SpacingType>
+    <NumbersOfBars>100</NumbersOfBars>
+    <StartOffset>0</StartOffset>
+    <EndOffset>0</EndOffset>
+    <FollowEdges>false</FollowEdges>
+    <ChamferType>NONE</ChamferType>
+    <InheritSpacingsFromPrimary>true</InheritSpacingsFromPrimary>
+    <InheritOffsetsFromPrimary>true</InheritOffsetsFromPrimary>
+  </GuideLineAttributes>
+</DefaultAttributes>

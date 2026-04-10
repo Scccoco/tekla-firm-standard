@@ -1,0 +1,9 @@
+name: GraphicPlus
+version: 1.8.11
+authors:
+  - David Mans
+description: >
+  A Scalable Vector Graphics (SVG) library for Grasshopper.
+  
+url: "https://www.food4rhino.com/en/app/graphic"
+icon_url: "https://www.food4rhino.com/sites/default/files/public/styles/thumbnail/public/users-files/david-mans/app/graphicspluslogo.png"
