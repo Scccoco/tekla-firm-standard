@@ -1,7 +1,7 @@
 @echo off
 :: укажите версию и путь к серверу
 set VERSION=2025.0
-set SERVER_FILE=c:\Company\TeklaFirm\XS_FIRM\user.ini
+set SERVER_FILE=c:\Company\user.ini
 set LOCAL_DIR=%LOCALAPPDATA%\Trimble\Tekla Structures\%VERSION%\UserSettings
 
 :: создаем папку, если ее нет, и копируем файл
