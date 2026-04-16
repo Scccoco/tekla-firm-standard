@@ -11,20 +11,53 @@ part(0,"Part")
   {
         /* Атрибуты геометрии и массы */
         attribute("KM_Thick", "Толщина листа, мм", dimension, "%d", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Area", "Площадь листа брутто, мм2", area, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Volume", "Объем листа брутто, мм3", float, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Weight", "Масса листа брутто, кг", weight, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
 
         /* Статусные атрибуты (Текстовые) */
         attribute("KM_Color", "Окрашено", string, "%s", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Sun", "С воздействием УФ", string, "%s", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Aggr", "С воздействием АС", string, "%s", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
 
         /* Специфические площади окраски */
         attribute("KM_Area_Color_nS_nA", "S окр. без УФ, без АС, мм2", area, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Area_Color_nS_yA", "S окр. без УФ, с АС, мм2", area, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Area_Color_yS_nA", "S окр. с УФ, без АС, мм2", area, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
         attribute("KM_Area_Color_yS_yA", "S окр. с УФ, с АС, мм2", area, "%.2f", no, none, "0.0", "0.0")
+		{
+			value("", 0)
+		}
     }
   tab_page("TAB_KM","КМ",93)
   modify(1)
