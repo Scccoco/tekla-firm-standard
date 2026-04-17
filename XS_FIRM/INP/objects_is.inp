@@ -292,6 +292,10 @@ surfacing(0,"j_Surfacing")
 bolt(0,"j_bolt")
 {
  tab_page("TAB_IS","ИС",93)
+ modify(1)
+}
+bolt(0,"j_bolt")
+{
  tab_page("TAB_PROEKTIROVANIE","Проектирование",93)
  modify(1)
 }

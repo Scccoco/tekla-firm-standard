@@ -61,7 +61,7 @@ tab_page("KSI tab")
 		tab_page("SO tab", "ян", 20)
 		tab_page("KSI tab", "йях", 21)
 		modify (1)
-	}
+}
 column(0,"j_column")
 {
 /* the part() section: */

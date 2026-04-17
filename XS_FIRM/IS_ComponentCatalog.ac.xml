@@ -1495,6 +1495,22 @@
       </OrderedThumbnails>
       <ComponentId>ЗД БО</ComponentId>
     </CatalogCustomComponentPartItem>
+    <CatalogMacroModelingItem>
+      <DisplayName>Атрибуты</DisplayName>
+      <OrderedThumbnails>
+        <Thumbnails>
+          <Thumbnail>
+            <Path>builtin:</Path>
+            <Visible>False</Visible>
+          </Thumbnail>
+          <Thumbnail>
+            <Path>file:///C:/Company/TeklaFirm/attributes/bitmaps/is_macro_att.bmp</Path>
+          </Thumbnail>
+        </Thumbnails>
+      </OrderedThumbnails>
+      <MacroFileName>Атрибуты.cs</MacroFileName>
+      <MacroLocation>LOCAL</MacroLocation>
+    </CatalogMacroModelingItem>
   </ComponentCatalogItems>
   <ComponentCatalogGroups>
     <ComponentCatalogGroup>
@@ -1553,6 +1569,9 @@
           <GroupIdString>14e16c43-9616-444b-9601-0f919b1f8c50</GroupIdString>
           <GroupName>МП</GroupName>
         </ComponentCatalogGroupPlaceholder>
+        <ComponentCatalogItemPlaceholder>
+          <ItemIdString>CatalogMacroModelingItem?Атрибуты?LOCAL</ItemIdString>
+        </ComponentCatalogItemPlaceholder>
       </GroupChildren>
     </ComponentCatalogGroup>
     <ComponentCatalogGroup>
